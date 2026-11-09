@@ -1,0 +1,531 @@
+{
+ "heldout": {
+  "baseline": {
+   "pos": 5.841,
+   "cls": 2.998,
+   "n": 1200,
+   "mae": 1.491,
+   "rmse": 3.91,
+   "r": 0.952,
+   "ba_bias": 0.039,
+   "ba_loa_low": -7.628,
+   "ba_loa_high": 7.706,
+   "within5": 0.952,
+   "coverage": 85.25,
+   "mae_kept": 1.206,
+   "w5_kept": 98.045
+  },
+  "lowres": {
+   "pos": 6.456,
+   "cls": 3.2,
+   "n": 1200,
+   "mae": 1.73,
+   "rmse": 4.553,
+   "r": 0.935,
+   "ba_bias": 0.182,
+   "ba_loa_low": -8.739,
+   "ba_loa_high": 9.102,
+   "within5": 0.932,
+   "coverage": 82.333,
+   "mae_kept": 1.22,
+   "w5_kept": 97.368
+  },
+  "lowlight50": {
+   "pos": 6.663,
+   "cls": 4.692,
+   "n": 1200,
+   "mae": 2.139,
+   "rmse": 5.488,
+   "r": 0.908,
+   "ba_bias": 0.656,
+   "ba_loa_low": -10.028,
+   "ba_loa_high": 11.339,
+   "within5": 0.917,
+   "coverage": 83.083,
+   "mae_kept": 1.293,
+   "w5_kept": 97.793
+  },
+  "lowlight20": {
+   "pos": 7.492,
+   "cls": 3.952,
+   "n": 1200,
+   "mae": 2.38,
+   "rmse": 5.445,
+   "r": 0.918,
+   "ba_bias": 1.25,
+   "ba_loa_low": -9.141,
+   "ba_loa_high": 11.641,
+   "within5": 0.883,
+   "coverage": 76.167,
+   "mae_kept": 1.165,
+   "w5_kept": 96.499
+  },
+  "multiface": {
+   "pos": 6.082,
+   "cls": 3.354,
+   "n": 1200,
+   "mae": 1.436,
+   "rmse": 3.812,
+   "r": 0.955,
+   "ba_bias": 0.122,
+   "ba_loa_low": -7.348,
+   "ba_loa_high": 7.593,
+   "within5": 0.959,
+   "coverage": 84.5,
+   "mae_kept": 1.269,
+   "w5_kept": 97.337
+  },
+  "enc_zl_fps10_kbps500": {
+   "pos": 9.992,
+   "cls": 4.784,
+   "n": 1200,
+   "mae": 2.25,
+   "rmse": 4.903,
+   "r": 0.925,
+   "ba_bias": 0.145,
+   "ba_loa_low": -9.465,
+   "ba_loa_high": 9.755,
+   "within5": 0.892,
+   "coverage": 72.75,
+   "mae_kept": 1.607,
+   "w5_kept": 95.304
+  },
+  "bandwidth": {
+   "pos": 12.73,
+   "cls": 6.339,
+   "n": 1200,
+   "mae": 4.045,
+   "rmse": 9.0,
+   "r": 0.773,
+   "ba_bias": 2.16,
+   "ba_loa_low": -14.971,
+   "ba_loa_high": 19.291,
+   "within5": 0.832,
+   "coverage": 65.417,
+   "mae_kept": 2.186,
+   "w5_kept": 94.268
+  },
+  "mask": {
+   "pos": 10.485,
+   "cls": 8.491,
+   "n": 1200,
+   "mae": 8.562,
+   "rmse": 15.068,
+   "r": 0.405,
+   "ba_bias": -6.064,
+   "ba_loa_low": -33.112,
+   "ba_loa_high": 20.983,
+   "within5": 0.658,
+   "coverage": 37.083,
+   "mae_kept": 1.252,
+   "w5_kept": 97.303
+  }
+ },
+ "heldout_n": {
+  "videos": 40,
+  "subjects": 20,
+  "windows_per_cond": 1200
+ },
+ "ubfc": {
+  "baseline": {
+   "pos": 0.908,
+   "cls": 0.834,
+   "n": 2390,
+   "mae": 0.848,
+   "rmse": 2.054,
+   "r": 0.993,
+   "ba_bias": 0.097,
+   "ba_loa_low": -3.925,
+   "ba_loa_high": 4.118,
+   "within5": 0.982,
+   "coverage": 97.615,
+   "mae_kept": 0.698,
+   "w5_kept": 99.4
+  },
+  "lowres": {
+   "pos": 1.026,
+   "cls": 0.885,
+   "n": 2390,
+   "mae": 0.876,
+   "rmse": 2.079,
+   "r": 0.993,
+   "ba_bias": 0.048,
+   "ba_loa_low": -4.027,
+   "ba_loa_high": 4.124,
+   "within5": 0.981,
+   "coverage": 97.113,
+   "mae_kept": 0.712,
+   "w5_kept": 99.483
+  },
+  "lowlight50": {
+   "pos": 1.085,
+   "cls": 0.884,
+   "n": 2390,
+   "mae": 0.903,
+   "rmse": 2.04,
+   "r": 0.993,
+   "ba_bias": 0.026,
+   "ba_loa_low": -3.974,
+   "ba_loa_high": 4.025,
+   "within5": 0.978,
+   "coverage": 97.113,
+   "mae_kept": 0.741,
+   "w5_kept": 99.397
+  },
+  "lowlight20": {
+   "pos": 1.507,
+   "cls": 1.074,
+   "n": 2390,
+   "mae": 0.95,
+   "rmse": 2.188,
+   "r": 0.992,
+   "ba_bias": 0.035,
+   "ba_loa_low": -4.254,
+   "ba_loa_high": 4.324,
+   "within5": 0.98,
+   "coverage": 96.402,
+   "mae_kept": 0.775,
+   "w5_kept": 99.306
+  },
+  "multiface": {
+   "pos": 0.962,
+   "cls": 0.869,
+   "n": 2390,
+   "mae": 0.848,
+   "rmse": 2.034,
+   "r": 0.993,
+   "ba_bias": 0.082,
+   "ba_loa_low": -3.903,
+   "ba_loa_high": 4.067,
+   "within5": 0.982,
+   "coverage": 98.075,
+   "mae_kept": 0.728,
+   "w5_kept": 99.36
+  },
+  "enc_zl_fps10_kbps500": {
+   "pos": 9.155,
+   "cls": 4.108,
+   "n": 2388,
+   "mae": 3.239,
+   "rmse": 8.639,
+   "r": 0.889,
+   "ba_bias": -2.207,
+   "ba_loa_low": -18.58,
+   "ba_loa_high": 14.166,
+   "within5": 0.886,
+   "coverage": 79.355,
+   "mae_kept": 1.377,
+   "w5_kept": 97.098
+  },
+  "bandwidth": {
+   "pos": 29.771,
+   "cls": 32.674,
+   "n": 2388,
+   "mae": 10.04,
+   "rmse": 18.566,
+   "r": 0.518,
+   "ba_bias": -7.59,
+   "ba_loa_low": -40.806,
+   "ba_loa_high": 25.626,
+   "within5": 0.65,
+   "coverage": 54.983,
+   "mae_kept": 4.204,
+   "w5_kept": 88.271
+  },
+  "mask": {
+   "pos": 2.034,
+   "cls": 0.852,
+   "n": 2390,
+   "mae": 0.852,
+   "rmse": 2.207,
+   "r": 0.992,
+   "ba_bias": -0.062,
+   "ba_loa_low": -4.386,
+   "ba_loa_high": 4.262,
+   "within5": 0.981,
+   "coverage": 92.259,
+   "mae_kept": 0.603,
+   "w5_kept": 99.773
+  }
+ },
+ "ubfc_n": {
+  "subjects": 42,
+  "windows_per_cond": 2390,
+  "hr_min": 53.0,
+  "hr_max": 135.0,
+  "hr_mean": 98.16903765690377,
+  "median_subject_mae": 0.6610169491525424,
+  "subjects_over_5": {
+   "ubfc_s04": 5.3
+  }
+ },
+ "ladder": {
+  "1 POS, spectral peak": {
+   "baseline": 7.15,
+   "lowres": 7.22,
+   "lowlight50": 7.76,
+   "lowlight20": 8.96,
+   "multiface": 7.25,
+   "enc_zl_fps10_kbps500": 11.12,
+   "bandwidth": 22.18,
+   "mask": 13.66
+  },
+  "2 + Viterbi tracking": {
+   "baseline": 5.35,
+   "lowres": 4.83,
+   "lowlight50": 5.18,
+   "lowlight20": 5.8,
+   "multiface": 5.06,
+   "enc_zl_fps10_kbps500": 7.38,
+   "bandwidth": 19.67,
+   "mask": 9.74
+  },
+  "3 + illumination cancellation": {
+   "baseline": 5.0,
+   "lowres": 4.88,
+   "lowlight50": 4.09,
+   "lowlight20": 6.08,
+   "multiface": 5.07,
+   "enc_zl_fps10_kbps500": 6.63,
+   "bandwidth": 16.64,
+   "mask": 8.7
+  },
+  "4 + codec-pattern removal": {
+   "baseline": 5.0,
+   "lowres": 4.88,
+   "lowlight50": 4.09,
+   "lowlight20": 6.08,
+   "multiface": 5.07,
+   "enc_zl_fps10_kbps500": 6.63,
+   "bandwidth": 12.33,
+   "mask": 8.7
+  },
+  "5 + mask gate (classical final)": {
+   "baseline": 4.99,
+   "lowres": 4.87,
+   "lowlight50": 4.09,
+   "lowlight20": 6.08,
+   "multiface": 5.06,
+   "enc_zl_fps10_kbps500": 6.63,
+   "bandwidth": 12.33,
+   "mask": 9.99
+  },
+  "6 + learned branch (proposed)": {
+   "baseline": 2.21,
+   "lowres": 2.66,
+   "lowlight50": 2.33,
+   "lowlight20": 3.14,
+   "multiface": 2.37,
+   "enc_zl_fps10_kbps500": 3.62,
+   "bandwidth": 4.49,
+   "mask": 9.99
+  },
+  "x classical final, harmonic boost on": {
+   "baseline": 5.78,
+   "lowres": 6.74,
+   "lowlight50": 5.67,
+   "lowlight20": 6.76,
+   "multiface": 5.68,
+   "enc_zl_fps10_kbps500": 7.68,
+   "bandwidth": 14.05,
+   "mask": 11.2
+  },
+  "x classical final, no codec removal": {
+   "baseline": 4.99,
+   "lowres": 4.87,
+   "lowlight50": 4.09,
+   "lowlight20": 6.08,
+   "multiface": 5.06,
+   "enc_zl_fps10_kbps500": 6.63,
+   "bandwidth": 16.65,
+   "mask": 9.99
+  }
+ },
+ "ladder_n": {
+  "videos": 120,
+  "subjects": 60
+ },
+ "c5_power_near_150": {
+  "Normal, 30 fps": 2.9050089999443993,
+  "C5 default x264, no codec fix": 9.623202229435456,
+  "C5 default x264, codec fix": 4.084478377683311,
+  "C5 our sender (no B-frames)": 3.7668777125693045
+ },
+ "ita_tertile_ranges": {
+  "lightest third": [
+   -58.934064865112305,
+   -31.070425033569336
+  ],
+  "middle third": [
+   -30.354095458984375,
+   -20.9493350982666
+  ],
+  "darkest third": [
+   -20.424827575683594,
+   7.7038222551345825
+  ]
+ },
+ "strata_pop_mae": 2.0283038501560875,
+ "ita_range": [
+  -58.934064865112305,
+  7.7038222551345825
+ ],
+ "strata": [
+  {
+   "group": "ita_cat",
+   "level": "lightest third",
+   "subjects": 27,
+   "mae": 2.623304562268804,
+   "dev": 0.5950007121127165,
+   "cov": 83.29223181257707,
+   "mae_kept": 1.397483345669874
+  },
+  {
+   "group": "ita_cat",
+   "level": "middle third",
+   "subjects": 26,
+   "mae": 1.609865470852018,
+   "dev": -0.4184383793040696,
+   "cov": 83.60025624599615,
+   "mae_kept": 1.0329501915708812
+  },
+  {
+   "group": "ita_cat",
+   "level": "darkest third",
+   "subjects": 27,
+   "mae": 1.8360049321824907,
+   "dev": -0.19229891797359677,
+   "cov": 88.53267570900123,
+   "mae_kept": 1.467966573816156
+  },
+  {
+   "group": "age_band",
+   "level": "18--29",
+   "subjects": 73,
+   "mae": 1.9133211678832116,
+   "dev": -0.11498268227287589,
+   "cov": 84.62591240875912,
+   "mae_kept": 1.2768194070080863
+  },
+  {
+   "group": "age_band",
+   "level": "30--59",
+   "subjects": 3,
+   "mae": 7.033333333333333,
+   "dev": 5.005029483177246,
+   "cov": 78.33333333333333,
+   "mae_kept": 3.652482269503546
+  },
+  {
+   "group": "age_band",
+   "level": "$\\geq$60",
+   "subjects": 4,
+   "mae": 0.3817427385892116,
+   "dev": -1.646561111566876,
+   "cov": 100.0,
+   "mae_kept": 0.3817427385892116
+  },
+  {
+   "group": "sex",
+   "level": "F",
+   "subjects": 52,
+   "mae": 1.7738629083920563,
+   "dev": -0.2544409417640312,
+   "cov": 83.72837924407432,
+   "mae_kept": 1.1373374139250192
+  },
+  {
+   "group": "sex",
+   "level": "M",
+   "subjects": 28,
+   "mae": 2.5002970885323825,
+   "dev": 0.47199323837629503,
+   "cov": 87.81937017231135,
+   "mae_kept": 1.604194857916103
+  }
+ ],
+ "older_subjects": [
+  {
+   "subject": 1149,
+   "age": 78.0,
+   "split": "dev (out-of-fold)"
+  },
+  {
+   "subject": 1217,
+   "age": 67.0,
+   "split": "dev (out-of-fold)"
+  },
+  {
+   "subject": 1314,
+   "age": 64.0,
+   "split": "dev (out-of-fold)"
+  },
+  {
+   "subject": 1399,
+   "age": 63.0,
+   "split": "dev (out-of-fold)"
+  }
+ ],
+ "per_subject_mid_age": [
+  {
+   "subject": 1932,
+   "age": 54.0,
+   "ae": 20.08
+  },
+  {
+   "subject": 2194,
+   "age": 48.0,
+   "ae": 0.7
+  },
+  {
+   "subject": 2246,
+   "age": 50.0,
+   "ae": 0.32
+  }
+ ],
+ "ita_by_subject_cat_counts": {
+  "brown (V)": 52,
+  "dark (VI)": 28
+ },
+ "data_dev": {
+  "subjects": 60,
+  "female": 36,
+  "age_median": 20.0,
+  "age_min": 18.0,
+  "age_max": 78.0,
+  "hr_min": 47.0,
+  "hr_max": 136.0,
+  "hr_mean": 85.02995839112344
+ },
+ "data_held": {
+  "subjects": 20,
+  "female": 16,
+  "age_median": 20.0,
+  "age_min": 18.0,
+  "age_max": 50.0,
+  "hr_min": 52.0,
+  "hr_max": 120.0,
+  "hr_mean": 80.96666666666667
+ },
+ "c3": {
+  "videos": 40,
+  "frac_frames_target_matches_clean": 1.0,
+  "worst_video_match": 1.0,
+  "target_found": 0.9993541666666668,
+  "frames_two_faces": 1.0
+ },
+ "c7": {
+  "frames": 5,
+  "face_covered": 0.4941344106433889,
+  "lower_half_covered": 0.957854889649661,
+  "detected_in_mask": 1.0,
+  "false_alarm_other": 0.008910355165091394
+ },
+ "runtime_ms": {
+  "front_per_frame_30fps": 5.548201561622234,
+  "front_per_frame_10fps": 13.137819449257222,
+  "backend_per_estimate": 11.639594999724068,
+  "tracker_per_step": 0.030401500000152737,
+  "params_learned": 27073
+ }
+}

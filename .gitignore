@@ -1,0 +1,18 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Datasets and anything derived frame-by-frame from them are not redistributed
+# (UBFC-rPPG is research-use only; both datasets are 10+ GB). Re-create with
+# fetch_mcd.py and ubfc.py fetch.
+data/
+cache/
+cache_*/
+
+# Large or machine-specific outputs
+out/*.log
+out/*.avi
+out/round1_test/
+*.part
